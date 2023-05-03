@@ -5,6 +5,7 @@ function Note(props) {
       <div className='note'>
         <h1 contentEditable="true">{props.title}</h1>
         <p contentEditable="true">{props.content}</p>
+        <button>DELETE</button>
       </div>
   )
 }
